@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:WSR2018Mobile"
+             x:Class="WSR2018Mobile.MainPage" >
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+        </Grid.RowDefinitions>
+        <ScrollView>
+            <ListView x:Name="TextList">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <ViewCell.View>
+                                <Label Text="{Binding Text}"></Label>
+                            </ViewCell.View>
+                            
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </ScrollView>
+        <Entry Grid.Row="1" x:Name="offset"/>
+        <Entry Grid.Row="2" x:Name="count"/>
+        <Button Grid.Row="3" Clicked="Button_Clicked" Text="hi"/>
+    </Grid>
+
+</ContentPage>
