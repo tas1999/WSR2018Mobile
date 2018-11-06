@@ -12,14 +12,18 @@
             <RowDefinition />
         </Grid.RowDefinitions>
         <ScrollView>
-            <ListView x:Name="TextList">
+            <ListView x:Name="TextList" 
+                      HasUnevenRows="True"
+                      >
                 <ListView.ItemTemplate>
                     <DataTemplate>
                         <ViewCell>
                             <ViewCell.View>
-                                <Label Text="{Binding Text}"></Label>
+                                <StackLayout>
+                                    <Label Text="{Binding Id}"></Label>
+                                    <Label Text="{Binding Text}"></Label>
+                                </StackLayout>
                             </ViewCell.View>
-                            
                         </ViewCell>
                     </DataTemplate>
                 </ListView.ItemTemplate>

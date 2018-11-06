@@ -23,7 +23,7 @@ namespace WSR2018Mobile
             // GetAsync() отправлем серверу запрос и ожидаем ответ
             HttpResponseMessage respons = client.
                 GetAsync(@"https://api.vk.com/method/"
-                + "wall.get?group_id=-103815643&count="+ count + "&" + "offset=" +offset + "&" +
+                + "wall.get?owner_id=-103815643&count=" + count + "&" + "offset=" +offset + "&" +
                 "access_token=" + token + "&v=5.87"
                 ).GetAwaiter().GetResult();
 
