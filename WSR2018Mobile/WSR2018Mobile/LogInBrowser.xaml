@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="WSR2018Mobile.LogInBrowser">
+    <ContentPage.Content>
+        <Grid>
+            <WebView x:Name="LoginBrowser" Source="https://vk.com/world_it_planet" Navigated="LoginBrowser_BindingContextChanged"/>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

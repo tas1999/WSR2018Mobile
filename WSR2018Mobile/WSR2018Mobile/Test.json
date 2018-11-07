@@ -1,394 +1,64 @@
 {
-  "response ": {
-    "count ": 1011,
-    "items ": [
-      {
-        "id ": 1375,
-        "from_id ": 126714996,
-        "owner_id ": 126714996,
-        "date ": 1540926179,
-        "post_type ": "post ",
-        "text ": "ит ис ревалюшон Джони ",
-        "can_delete ": 1,
-        "can_pin ": 1,
-        "attachments ": [
-          {
-            "type ": "video ",
-            "video ": {
-              "id ": 456239623,
-              "owner_id ": 126714996,
-              "title ": "iPad Pro — Change — Apple ",
-              "duration ": 64,
-              "description ": "Meet the new iPad Pro. The biggest change to iPad since iPad. Now with an all-screen design with Liquid Retina display, Face ID, A12X Bionic chip, USB-C, Smart Keyboard Folio, and a redesigned Apple Pencil.  n  nLearn more at https:  /  /apple.co  /2AAd4ph  n  nSong: “Voil?” (feat. Gucci Mane, Wale) by N.E.R.D. https:  /  /apple.co  /2C6vQ91 ",
-              "date ": 1540926165,
-              "comments ": 0,
-              "views ": 95,
-              "photo_130 ": "https:  /  /pp.userapi.com  /c848632  /v848632064  /a5cce  /X5YHD9NPk-Q.jpg ",
-              "photo_320 ": "https:  /  /pp.userapi.com  /c848632  /v848632064  /a5cd0  /kgQns7Z2Xvk.jpg ",
-              "photo_800 ": "https:  /  /pp.userapi.com  /c848632  /v848632064  /a5cd1  /tWCZ7BYKsEQ.jpg ",
-              "photo_640 ": "https:  /  /pp.userapi.com  /c848632  /v848632064  /a5cd1  /tWCZ7BYKsEQ.jpg ",
-              "access_key ": "d9534fd477988d9956 ",
-              "platform ": "YouTube ",
-              "can_edit ": 1,
-              "can_add ": 1
-            }
-          }
-        ],
-        "post_source ": { "type ": "vk " },
-        "comments ": {
-          "count ": 0,
-          "can_post ": 1,
-          "groups_can_post ": true,
-          "can_close ": 1
-        },
-        "likes ": {
-          "count ": 0,
-          "user_likes ": 0,
-          "can_like ": 1,
-          "can_publish ": 1
-        },
-        "reposts ": {
-          "count ": 0,
-          "user_reposted ": 0
-        },
-        "views ": { "count ": 44 }
-      }
-    ]
-  }
-}
-{
-  "response": 
-  {
-    "count": 1011,
+  "response": {
+    "count": 590,
     "items": [
       {
-        "id": 1375,
-        "from_id": 126714996,
-        "owner_id": 126714996,
-        "date": 1540926179,
-        "post_type": "post",
-        "text": "ит ис ревалюшон Джони",
-        "can_delete": 1,
-        "can_pin": 1,
-        "attachments": [
-          {
-            "type": "video",
-            "video": {
-              "id": 456239623,
-              "owner_id": 126714996,
-              "title": "iPad Pro — Change — Apple",
-              "duration": 64,
-              "description": "Meet the new iPad Pro. The biggest change to iPad since iPad. Now with an all-screen design with Liquid Retina display, Face ID, A12X Bionic chip, USB-C, Smart Keyboard Folio, and a redesigned Apple Pencil.\n\nLearn more at https:\/\/apple.co\/2AAd4ph\n\nSong: “Voil?” (feat. Gucci Mane, Wale) by N.E.R.D. https:\/\/apple.co\/2C6vQ91",
-              "date": 1540926165,
-              "comments": 0,
-              "views": 95,
-              "photo_130": "https:\/\/pp.userapi.com\/c848632\/v848632064\/a5cce\/X5YHD9NPk-Q.jpg",
-              "photo_320": "https:\/\/pp.userapi.com\/c848632\/v848632064\/a5cd0\/kgQns7Z2Xvk.jpg",
-              "photo_800": "https:\/\/pp.userapi.com\/c848632\/v848632064\/a5cd1\/tWCZ7BYKsEQ.jpg",
-              "photo_640": "https:\/\/pp.userapi.com\/c848632\/v848632064\/a5cd1\/tWCZ7BYKsEQ.jpg",
-              "access_key": "d9534fd477988d9956",
-              "platform": "YouTube",
-              "can_edit": 1,
-              "can_add": 1
-            }
-          }
-        ],
-        "post_source": { "type": "vk" },
-        "comments": {
-          "count": 0,
-          "can_post": 1,
-          "groups_can_post": true,
-          "can_close": 1
-        },
-        "likes": {
-          "count": 0,
-          "user_likes": 0,
-          "can_like": 1,
-          "can_publish": 1
-        },
-        "reposts": {
-          "count": 0,
-          "user_reposted": 0
-        },
-        "views": { "count": 44 }
-      },
-      {
-        "id": 1374,
-        "from_id": 126714996,
-        "owner_id": 126714996,
-        "date": 1540297769,
-        "post_type": "post",
-        "text": "",
-        "copy_history": [
-          {
-            "id": 38959,
-            "owner_id": -142819097,
-            "from_id": -142819097,
-            "date": 1539773945,
-            "post_type": "post",
-            "text": "Разгоним ВСЁ Ryzen 2600, RX 580 и оперативку!!\nА также стартуем новый конкурс, подробности в описании видео на ютубе!!!\nСтарт конкурса 17\\10 финал 30\\10. Кто не выиграл в предыдущем, пробил вам новый шанс > на кону еще одна RX 580 стоимостью 21.000р ждет тебя!!",
-            "attachments": [
-              {
-                "type": "video",
-                "video": {
-                  "id": 456239467,
-                  "owner_id": -142819097,
-                  "title": "Разгоним ВСЁ Ryzen 2600, RX 580 и оперативку!!",
-                  "duration": 584,
-                  "description": "Сегодня дадим жару и разгоним всё что можно!!)) Разгоним процессор AMD RYZEN 5 2600 @ 4100, видеокарту gigabyte rx 580 8gb aorus и разгоним оперативу!!",
-                  "date": 1539773945,
-                  "comments": 345,
-                  "views": 1045,
-                  "photo_130": "https:\/\/pp.userapi.com\/c844418\/v844418775\/11056c\/UcjIY15s0_w.jpg",
-                  "photo_320": "https:\/\/pp.userapi.com\/c844418\/v844418775\/11056e\/g-rho9XtMj4.jpg",
-                  "photo_800": "https:\/\/pp.userapi.com\/c844418\/v844418775\/11056f\/eO1Ss7cy9Xk.jpg",
-                  "photo_640": "https:\/\/pp.userapi.com\/c844418\/v844418775\/11056f\/eO1Ss7cy9Xk.jpg",
-                  "access_key": "75a1dc807713eb1e7f",
-                  "platform": "YouTube",
-                  "can_add": 1
-                }
-              }
-            ],
-            "post_source": { "type": "vk" }
-          }
-        ],
-        "can_delete": 1,
-        "can_pin": 1,
-        "post_source": { "type": "vk" },
-        "comments": {
-          "count": 0,
-          "can_post": 1,
-          "groups_can_post": true,
-          "can_close": 1
-        },
-        "likes": {
-          "count": 0,
-          "user_likes": 0,
-          "can_like": 1,
-          "can_publish": 1
-        },
-        "reposts": {
-          "count": 0,
-          "user_reposted": 0
-        },
-        "views": { "count": 43 }
-      },
-      {
-        "id": 1371,
-        "from_id": 126714996,
-        "owner_id": 126714996,
-        "date": 1537276214,
-        "post_type": "post",
-        "text": "",
-        "copy_history": [
-          {
-            "id": 37158,
-            "owner_id": -142819097,
-            "from_id": -142819097,
-            "date": 1537268554,
-            "post_type": "post",
-            "text": "RX 580 + процессор за 1500р !? \nСтартуем новый КОНКУРС!!! 18\\09 по 28\\09\nПодробные условия в описании видео на ютубе!",
-            "attachments": [
-              {
-                "type": "video",
-                "video": {
-                  "id": 456239450,
-                  "owner_id": -142819097,
-                  "title": "RX 580 + процессор за 1.5к !? Новый КОНКУРС!!!",
-                  "duration": 570,
-                  "description": "Подробные условия конкурса в описании видео на ютубе https:\/\/youtu.be\/W2qDd_Ze-eo\n",
-                  "date": 1537268554,
-                  "comments": 253,
-                  "views": 689,
-                  "photo_130": "https:\/\/pp.userapi.com\/c846416\/v846416334\/eb9a5\/8seIpzZkDpc.jpg",
-                  "photo_320": "https:\/\/pp.userapi.com\/c846416\/v846416334\/eb9a7\/o4lwVGPpFDA.jpg",
-                  "photo_800": "https:\/\/pp.userapi.com\/c846416\/v846416334\/eb9a8\/JJk6JUvXLbk.jpg",
-                  "photo_640": "https:\/\/pp.userapi.com\/c846416\/v846416334\/eb9a8\/JJk6JUvXLbk.jpg",
-                  "access_key": "192f5d2c1581d6ea4b",
-                  "platform": "YouTube",
-                  "can_add": 1
-                }
-              }
-            ],
-            "post_source": { "type": "vk" }
-          }
-        ],
-        "can_delete": 1,
-        "can_pin": 1,
-        "post_source": { "type": "vk" },
-        "comments": {
-          "count": 0,
-          "can_post": 1,
-          "groups_can_post": true,
-          "can_close": 1
-        },
-        "likes": {
-          "count": 0,
-          "user_likes": 0,
-          "can_like": 1,
-          "can_publish": 1
-        },
-        "reposts": {
-          "count": 0,
-          "user_reposted": 0
-        },
-        "views": { "count": 181 }
-      },
-      {
-        "id": 1370,
-        "from_id": 126714996,
-        "owner_id": 126714996,
-        "date": 1536253425,
-        "post_type": "post",
-        "text": "",
-        "can_delete": 1,
-        "can_pin": 1,
-        "attachments": [
-          {
-            "type": "photo",
+        "conversation": {
+          "peer": {
+            "id": 2000000068,
+            "type": "chat",
+            "local_id": 68
+          },
+          "in_read": 742358,
+          "out_read": 742358,
+          "last_message_id": 742358,
+          "can_write": {
+            "allowed": true
+          },
+          "chat_settings": {
+            "title": "ЭВТешки",
+            "members_count": 29,
+            "state": "in",
             "photo": {
-              "id": 456241729,
-              "album_id": -6,
-              "owner_id": 126714996,
-              "sizes": [
-                {
-                  "type": "m",
-                  "url": "https:\/\/sun7-1.userapi.com\/c830408\/v830408175\/18b06f\/98qAUovHfNY.jpg",
-                  "width": 128,
-                  "height": 130
-                },
-                {
-                  "type": "o",
-                  "url": "https:\/\/sun7-4.userapi.com\/c830408\/v830408175\/18b074\/2-EtQkpewmQ.jpg",
-                  "width": 130,
-                  "height": 132
-                },
-                {
-                  "type": "p",
-                  "url": "https:\/\/sun7-4.userapi.com\/c830408\/v830408175\/18b075\/C0gkX1vJSK0.jpg",
-                  "width": 200,
-                  "height": 203
-                },
-                {
-                  "type": "q",
-                  "url": "https:\/\/sun7-2.userapi.com\/c830408\/v830408175\/18b076\/U26yYf1A_0s.jpg",
-                  "width": 320,
-                  "height": 325
-                },
-                {
-                  "type": "r",
-                  "url": "https:\/\/sun7-3.userapi.com\/c830408\/v830408175\/18b077\/WzM8u-eJh4Y.jpg",
-                  "width": 510,
-                  "height": 518
-                },
-                {
-                  "type": "s",
-                  "url": "https:\/\/sun7-1.userapi.com\/c830408\/v830408175\/18b06e\/XtBC67cnckE.jpg",
-                  "width": 74,
-                  "height": 75
-                },
-                {
-                  "type": "w",
-                  "url": "https:\/\/sun7-2.userapi.com\/c830408\/v830408175\/18b073\/eBiGnhAu064.jpg",
-                  "width": 1134,
-                  "height": 1152
-                },
-                {
-                  "type": "x",
-                  "url": "https:\/\/sun7-4.userapi.com\/c830408\/v830408175\/18b070\/HT28GqrkrxU.jpg",
-                  "width": 594,
-                  "height": 604
-                },
-                {
-                  "type": "y",
-                  "url": "https:\/\/sun7-2.userapi.com\/c830408\/v830408175\/18b071\/9gUzeF4X-N4.jpg",
-                  "width": 794,
-                  "height": 807
-                },
-                {
-                  "type": "z",
-                  "url": "https:\/\/sun7-1.userapi.com\/c830408\/v830408175\/18b072\/vNwUUlbFfK0.jpg",
-                  "width": 1063,
-                  "height": 1080
-                }
-              ],
-              "text": "",
-              "date": 1536253425,
-              "post_id": 1370
-            }
+              "photo_50": "https://pp.userap...ukbZyi8kI.jpg?ava=1",
+              "photo_100": "https://pp.userap...FjP99mg2A.jpg?ava=1",
+              "photo_200": "https://pp.userap...Hy4NDwmz8.jpg?ava=1"
+            },
+            "active_ids": [ 42173572, 223277444, 292085040, 161328678 ],
+            "acl": {
+              "can_invite": true,
+              "can_change_info": true,
+              "can_change_pin": true,
+              "can_promote_users": false,
+              "can_see_invite_link": false,
+              "can_change_invite_link": false
+            },
+            "is_group_channel": false,
+            "owner_id": 143527500
+          },
+          "push_settings": {
+            "no_sound": false,
+            "disabled_until": 0,
+            "disabled_forever": true
           }
-        ],
-        "post_source": {
-          "type": "vk",
-          "data": "profile_photo"
         },
-        "comments": {
-          "count": 0,
-          "can_post": 1,
-          "groups_can_post": true,
-          "can_close": 1
-        },
-        "likes": {
-          "count": 15,
-          "user_likes": 1,
-          "can_like": 0,
-          "can_publish": 1
-        },
-        "reposts": {
-          "count": 0,
-          "user_reposted": 0
-        },
-        "views": { "count": 167 }
-      },
-      {
-        "id": 1358,
-        "from_id": 126714996,
-        "owner_id": 126714996,
-        "date": 1521568183,
-        "post_type": "post",
-        "text": "",
-        "can_delete": 1,
-        "can_pin": 1,
-        "attachments": [
-          {
-            "type": "video",
-            "video": {
-              "id": 456239467,
-              "owner_id": 126714996,
-              "title": "Устаревшая Система Образования",
-              "duration": 915,
-              "description": "Студия Анимации StoryBox – https:\/\/story-box.studio\n\nНе работаете по специализации? И это обычная ситуация на рынке труда? Ответ кроется в системе ...",
-              "date": 1521568184,
-              "comments": 0,
-              "views": 7081,
-              "photo_130": "https:\/\/pp.userapi.com\/c840530\/u197263609\/video\/s_ad5949ba.jpg",
-              "photo_320": "https:\/\/pp.userapi.com\/c840530\/u197263609\/video\/l_aeffa314.jpg",
-              "photo_800": "https:\/\/pp.userapi.com\/c840530\/u197263609\/video\/x_1a282c41.jpg",
-              "access_key": "b5a0a52707c10ad4e4",
-              "platform": "YouTube",
-              "can_edit": 1,
-              "can_add": 1
-            }
-          }
-        ],
-        "post_source": { "type": "vk" },
-        "comments": {
-          "count": 0,
-          "can_post": 1,
-          "groups_can_post": true,
-          "can_close": 1
-        },
-        "likes": {
-          "count": 6,
-          "user_likes": 1,
-          "can_like": 0,
-          "can_publish": 1
-        },
-        "reposts": {
-          "count": 0,
-          "user_reposted": 0
-        },
-        "views": { "count": 585 }
+        "last_message": {
+          "date": 1541524922,
+          "from_id": 104538544,
+          "id": 742358,
+          "out": 0,
+          "peer_id": 2000000068,
+          "text": "Спасибо",
+          "conversation_message_id": 40211,
+          "fwd_messages": [],
+          "update_time": 1541524927,
+          "important": false,
+          "random_id": 0,
+          "attachments": [],
+          "is_hidden": false
+        }
       }
-    ]
-  }}
+    ],
+    "unread_count": 2
+  }
+}

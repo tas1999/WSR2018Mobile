@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="WSR2018Mobile.DialogList">
+    <ContentPage.Content>
+        <Grid>
+            <ScrollView>
+                <ListView x:Name="DialogLView">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <ViewCell>
+                                <ViewCell.View >
+                                    <Grid>
+                                        <Grid.RowDefinitions>
+                                            <RowDefinition Height="auto"/>
+                                            <RowDefinition Height="auto"/>
+                                        </Grid.RowDefinitions>
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="auto"/>
+                                            <ColumnDefinition />
+                                            <ColumnDefinition Width="auto"/>
+                                        </Grid.ColumnDefinitions>
+                                        <Image Grid.RowSpan="2" Source="{Binding Conversation.Chat_settings.Photo.Photo_50}"/>
+                                        <Label FontSize="Small" Grid.Column="1" Text="{Binding ChatName}"/>
+                                        <Label FontSize="Small" Grid.Column="1" Grid.Row="1" Text="{Binding Last_message.Text}"/>
+                                        <Label FontSize="Micro" Grid.Column="2" Text="{Binding  Last_message.Date}"/>
+                                    </Grid>
+                                </ViewCell.View>
+                            </ViewCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </ScrollView>
+            
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

@@ -6,32 +6,12 @@
 
     <Grid>
         <Grid.RowDefinitions>
-            <RowDefinition />
-            <RowDefinition />
-            <RowDefinition />
-            <RowDefinition />
+            <RowDefinition/>
+            <RowDefinition Height="50"/>
+            <RowDefinition/>
         </Grid.RowDefinitions>
-        <ScrollView>
-            <ListView x:Name="TextList" 
-                      HasUnevenRows="True"
-                      >
-                <ListView.ItemTemplate>
-                    <DataTemplate>
-                        <ViewCell>
-                            <ViewCell.View>
-                                <StackLayout>
-                                    <Label Text="{Binding Id}"></Label>
-                                    <Label Text="{Binding Text}"></Label>
-                                </StackLayout>
-                            </ViewCell.View>
-                        </ViewCell>
-                    </DataTemplate>
-                </ListView.ItemTemplate>
-            </ListView>
-        </ScrollView>
-        <Entry Grid.Row="1" x:Name="offset"/>
-        <Entry Grid.Row="2" x:Name="count"/>
-        <Button Grid.Row="3" Clicked="Button_Clicked" Text="hi"/>
+        <Button Grid.Row="1" x:Name="Login" Text="Войти" Clicked="Login_Clicked"/>
+        
     </Grid>
 
 </ContentPage>

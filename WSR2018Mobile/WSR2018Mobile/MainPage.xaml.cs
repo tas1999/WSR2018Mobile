@@ -15,10 +15,11 @@ namespace WSR2018Mobile
             InitializeComponent();
         }
 
-        private async void Button_Clicked(object sender, EventArgs e)
+        
+
+        private async void Login_Clicked(object sender, EventArgs e)
         {
-            TextList.HasUnevenRows = true;
-            TextList.ItemsSource = await ServerController.GetAsyncStudents(int.Parse(offset.Text), int.Parse(count.Text));
+            await Navigation.PushAsync(new LogInBrowser());
         }
     }
 }
