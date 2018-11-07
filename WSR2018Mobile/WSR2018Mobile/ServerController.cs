@@ -11,7 +11,7 @@ namespace WSR2018Mobile
     {
         public static string Token { get { return token; } set { token = value; } }
         static HttpClient client = new HttpClient();
-        static string token = @"638993f469bdc06f2f09ab9208c62e8f15863d535d110e80dc159ce39c7f51a8d041f5551c3c7c21dd6ab";
+        static string token = @"70de73aea33b7e49a8530c62b5da4919e1a03aad49fde88f1c10cdf8a83b17cafd99d8c7cfb21dfd0edf4";
         static ServerController()
         {
             // указываем, что ждём от сервера json объекты
