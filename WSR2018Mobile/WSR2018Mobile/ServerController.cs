@@ -1,6 +1,7 @@
 ﻿using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
@@ -11,7 +12,7 @@ namespace WSR2018Mobile
     {
         public static string Token { get { return token; } set { token = value; } }
         static HttpClient client = new HttpClient();
-        static string token = @"70de73aea33b7e49a8530c62b5da4919e1a03aad49fde88f1c10cdf8a83b17cafd99d8c7cfb21dfd0edf4";
+        static string token = @"03fada0d69fa4a03c3b39136b85b030f74894a3bb4bc019b2d270780c8393d534badd44f4f2633e689992";
         static ServerController()
         {
             // указываем, что ждём от сервера json объекты
@@ -42,6 +43,16 @@ namespace WSR2018Mobile
             var chatAnswer = JsonConvert.DeserializeObject<ServerAnswer<Chat>>(res);
             return chatAnswer.Response.Items;
         }
+        public static async Task<List<Message>> GetMessageList(int id)
+        {
+            HttpResponseMessage respons = await client.GetAsync(@"https://api.vk.com/method/"
+                + "messages.getHistory?" + "peer_id="
+                 + id + "&" + "count=5&" +
+                "access_token=" + token + "&v=5.87");
+            string res = await respons.Content.ReadAsStringAsync();
+            var chatAnswer = JsonConvert.DeserializeObject<ServerAnswer<Message>>(res);
+            return chatAnswer.Response.Items.OrderBy((i)=>(i.Id)).ToList();
+        }
         public static List<User> GetUserById(int id)
         {
             HttpResponseMessage respons = client.GetAsync(@"https://api.vk.com/method/"
@@ -51,6 +62,7 @@ namespace WSR2018Mobile
             var chatAnswer = JsonConvert.DeserializeObject<ServerAnswerList<User>>(res);
             return chatAnswer.Response;
         }
+
         public static async Task SendMessage(string text, int id)
         {
             HttpResponseMessage response = await client.GetAsync(@"https://api.vk.com/method/"

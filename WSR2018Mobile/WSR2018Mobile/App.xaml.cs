@@ -10,7 +10,7 @@ namespace WSR2018Mobile
         public App()
         {
             InitializeComponent();
-            MainPage = new NavigationPage(new DialogList());
+            MainPage = new NavigationPage(new MainPage());
         }
 
         protected override void OnStart()

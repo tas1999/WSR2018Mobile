@@ -30,6 +30,7 @@ namespace WSR2018Mobile
                 int endIndex = url.IndexOf("&expires_in");
                 string token = url.Substring(startIndex, endIndex - startIndex);
                 ServerController.Token = token;
+                App.Current.Properties.Add("token", token);
                 await Navigation.PushAsync(new DialogList());
             }
         }

@@ -15,13 +15,21 @@ namespace WSR2018Mobile
         int Userid { get; set; }
 		public MessagePage(int id)
 		{
-			InitializeComponent ();
             Userid = id;
+            InitializeComponent ();
+            this.MeasureInvalidated += MessagePage_MeasureInvalidated;
+        }
+
+        private async void MessagePage_MeasureInvalidated(object sender, EventArgs e)
+        {
+            ListMessage.ItemsSource = await ServerController.GetMessageList(Userid);
+            
         }
 
         private async Task SendButton_Clicked(object sender, EventArgs e)
         {
            await ServerController.SendMessage(MessageText.Text, Userid);
+           ListMessage.ItemsSource = await ServerController.GetMessageList(Userid);
         }
     }
 }

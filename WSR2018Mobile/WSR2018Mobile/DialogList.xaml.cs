@@ -12,6 +12,7 @@ namespace WSR2018Mobile
 	[XamlCompilation(XamlCompilationOptions.Compile)]
 	public partial class DialogList : ContentPage
 	{
+        List<Chat> Chats;
 		public DialogList ()
 		{
             InitializeComponent();
@@ -20,13 +21,12 @@ namespace WSR2018Mobile
 
         private async void DialogList_MeasureInvalidated(object sender, EventArgs e)
         {
-            DialogLView.ItemsSource = await ServerController.GetDialogList();
+            DialogLView.ItemsSource = Chats = await ServerController.GetDialogList();
         }
 
         private async void ViewCell_Tapped(object sender, EventArgs e)
         {
-           await DisplayAlert("", sender.ToString(), "ok");
-           // await Navigation.PushModalAsync(new MessagePage(((Chat)sender).Conversation.Peer.Id));
+           await Navigation.PushModalAsync(new MessagePage(((Chat)((ViewCell)sender).View.BindingContext).Conversation.Peer.Id));
         }
     }
 }
