@@ -15,15 +15,12 @@ namespace WSR2018Mobile
 		public DialogList ()
 		{
             InitializeComponent();
-            this.MeasureInvalidated += DialogList_MeasureInvalidated;
-            DialogLView.ItemSelected += (e,o) => int t = 11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111;
-
         }
 
-        private async void DialogList_MeasureInvalidated(object sender, EventArgs e)
+
+        private async void ViewCell_Tapped(object sender, EventArgs e)
         {
-            DialogLView.ItemsSource = await ServerController.GetDialogList();
+           await Navigation.PushModalAsync(new MessagePage(((Chat)sender).Conversation.Peer.Id));
         }
-
     }
 }

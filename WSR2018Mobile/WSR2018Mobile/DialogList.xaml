@@ -8,9 +8,11 @@
                 <ListView x:Name="DialogLView">
                     <ListView.ItemTemplate>
                         <DataTemplate>
-                            <ViewCell>
-                                <ViewCell.View >
+                            <ViewCell Tapped="ViewCell_Tapped">
+                                <ViewCell.View>
+                                    
                                     <Grid>
+                                        
                                         <Grid.RowDefinitions>
                                             <RowDefinition Height="auto"/>
                                             <RowDefinition Height="auto"/>
@@ -20,6 +22,7 @@
                                             <ColumnDefinition />
                                             <ColumnDefinition Width="auto"/>
                                         </Grid.ColumnDefinitions>
+                                        
                                         <Image Grid.RowSpan="2" Source="{Binding Conversation.Chat_settings.Photo.Photo_50}"/>
                                         <Label FontSize="Small" Grid.Column="1" Text="{Binding ChatName}"/>
                                         <Label FontSize="Small" Grid.Column="1" Grid.Row="1" Text="{Binding Last_message.Text}"/>
